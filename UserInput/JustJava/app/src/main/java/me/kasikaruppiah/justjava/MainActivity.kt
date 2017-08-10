@@ -12,31 +12,33 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        display(quantity)
-        displayMessage("Total: $0")
+        displayQuantity(quantity)
     }
 
     fun increment(view: View) {
         quantity++
-        display(quantity)
+        displayQuantity(quantity)
     }
 
     fun decrement(view: View) {
         quantity--
-        display(quantity)
+        displayQuantity(quantity)
     }
 
-    fun submitOrder(view: View) {
-        val price = quantity * 5
-        val message = "Total: $$price\nThank you!"
-        displayMessage(message)
+    fun submitOrder(view: View) = displayMessage(createOrderSummary(calculatePrice()))
+
+    private fun displayQuantity(quantity: Int) {
+        quantity_text_view.text = "$quantity"
     }
 
-    private fun display(number: Int) {
-        quantity_text_view.text = "$number"
+    private fun displayMessage(orderSummary: String) {
+        order_summary_text_view.text = orderSummary
     }
 
-    private fun displayMessage(string: String) {
-        price_text_view.text = string
-    }
+    private fun calculatePrice() = quantity * 5
+
+    private fun createOrderSummary(price: Int) = "Name: Shifu" +
+            "\nQuantity: $quantity" +
+            "\nTotal: $$price" +
+            "\nThank you!"
 }
