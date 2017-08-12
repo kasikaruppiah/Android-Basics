@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nur Java</string>
+    <string name="name">Name</string>
+    <string name="toppings">Toppings</string>
+    <string name="whipped_cream">Schlagsahne</string>
+    <string name="chocolate">Schokolade</string>
+    <string name="quantity">Anzahl</string>
+    <string name="order">Auftrag</string>
+    <string name="max_order">Sie haben die Höchstgrenze der Bestellung erreicht.</string>
+    <string name="min_order">Sie können nicht weniger als 1 Kaffee bestellen.</string>
+    <string name="name_required">Name erforderlich, um Bestellung zu vergeben.</string>
+    <string name="thankyou">Vielen Dank!</string>
+</resources>
