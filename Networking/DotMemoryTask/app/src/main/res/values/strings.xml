@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name" translatable="false">Dot Memory Task</string>
+    <string name="configuration">Configuration</string>
+    <string name="participant_id">Participant ID</string>
+    <string name="assessment">Assessment</string>
+    <string name="default_assessment" translatable="false">20</string>
+    <string name="set_size">Set Size</string>
+    <string name="default_set_size" translatable="false">3</string>
+    <string name="begin">Begin</string>
+    <string name="resume">Click to Resume</string>
+    <string name="ready">Click to Begin</string>
+    <string name="mean_set_size">%s\nMean Set Size: %.2f\nLong Click to close</string>
+    <string name="new_trial">New Trial</string>
+    <string name="start_game">Start of Dot Memory Game</string>
+    <string name="back_pressed">All progress will be lost</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="break_segment">Break\nClick to Continue</string>
+    <string name="default_practice_trials" translatable="false">3</string>
+    <string name="practice_trials">Practice Trials</string>
+    <string name="practice_trial">Trial %d</string>
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.northeastern.ledlab.dotmemorytask.DotMemoryConfiguration">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/configuration"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|end"
+                android:padding="8dp"
+                android:text="@string/participant_id"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/pid"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill_horizontal"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:padding="8dp"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|end"
+                android:padding="8dp"
+                android:text="@string/assessment"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/assessment"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill_horizontal"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:padding="8dp"
+                android:text="@string/default_assessment" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|end"
+                android:padding="8dp"
+                android:text="@string/set_size"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/setsize"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill_horizontal"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:padding="8dp"
+                android:text="@string/default_set_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|end"
+                android:padding="8dp"
+                android:text="@string/practice_trials"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/practicetrials"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill_horizontal"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:padding="8dp"
+                android:text="@string/default_practice_trials" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/begin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/begin" />
+    </LinearLayout>
+</RelativeLayout>

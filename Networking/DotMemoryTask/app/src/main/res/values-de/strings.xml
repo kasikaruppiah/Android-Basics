@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="assessment">Bewertung</string>
+    <string name="begin">Start</string>
+    <string name="configuration">Konfiguration</string>
+    <string name="participant_id">Teilnehmer-ID</string>
+    <string name="ready">Klicken um zu beginnen</string>
+    <string name="resume">Klicken Sie auf, um fortzufahren</string>
+    <string name="set_size">Größe einstellen</string>
+    <string name="mean_set_size">%s\nMittlere Größe: %.2f\nLang Klicken, um zu schließen</string>
+    <string name="new_trial">Neue Studie</string>
+    <string name="start_game">Start des Punktespeicher-Spiels</string>
+    <string name="back_pressed">Alle Fortschritte gehen verloren</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Stornieren</string>
+    <string name="break_segment">Unterbrechung\nKlicke um Fortzufahren</string>
+    <string name="practice_trials">Übungsversuche</string>
+    <string name="practice_trial">Versuch %d</string>
+</resources>
